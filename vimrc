@@ -1,4 +1,11 @@
 set showcmd
+set hlsearch
+set smarttab
+set tabstop=2
+set softtabstop=2
+set shiftwidth=2
+set expandtab
+set mouse=a
 set nowrap
 set showmode
 set backspace=indent,eol,start
@@ -18,8 +25,7 @@ endif
 
 
 syntax on
-set cursorline
 filetype indent on
 set lazyredraw
 set showmatch
-colorscheme nightflight2
+colorscheme elflord
